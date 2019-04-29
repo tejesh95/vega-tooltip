@@ -48,7 +48,7 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.11",
+    "@types/jest": "^24.0.12",
     "@types/node": "^11.11.6",
     "browser-sync": "^2.26.3",
     "concurrently": "^4.1.0",
