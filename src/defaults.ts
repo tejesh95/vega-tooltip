@@ -6,12 +6,17 @@ export const DEFAULT_OPTIONS = {
   /**
    * X offset.
    */
-  offsetX: 10,
+  offsetX: 0,
 
   /**
    * Y offset.
    */
-  offsetY: 10,
+  offsetY: 0,
+
+  /**
+   * Direction of the tooltip element.
+   */
+  direction: 'n',
 
   /**
    * ID of the tooltip element.
