@@ -14,15 +14,16 @@ export function calculatePosition(
   direction: string
 ) {
 
-  let directionCallbacks = {
-    n: directionNorth,
-    s: directionSouth,
-    e: directionEast,
-    w: directionWest,
-    nw : directionNorthWest,
-    ne : directionNorthEast,
-    sw : directionSouthWest,
-    se : directionSouthEast
+
+  let directionCallbacks: { [key: string]: any} = {
+    'n': directionNorth,
+    's': directionSouth,
+    'e': directionEast,
+    'w': directionWest,
+    'nw': directionNorthWest,
+    'ne': directionNorthEast,
+    'sw': directionSouthWest,
+    'se': directionSouthEast
   }
 
   let coords = directionCallbacks[direction]()
